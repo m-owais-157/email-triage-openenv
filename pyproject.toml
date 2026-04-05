@@ -1,0 +1,15 @@
+[project]
+name = "email-triage-openenv"
+version = "0.1.0"
+description = "Smart Email Triage OpenEnv Environment"
+authors = [
+    { name = "Mohammed Owais" }
+]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "requests"
+]
+
+[tool.openenv]
+entrypoint = "main:app"
