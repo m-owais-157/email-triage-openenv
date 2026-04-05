@@ -1,19 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "email-triage-openenv"
 version = "0.1.0"
 description = "Smart Email Triage OpenEnv Environment"
 authors = [
-    { name = "Mohammed Owais" }
+    { name = "Mohammed Owais", email = "example@email.com" }
 ]
 dependencies = [
     "fastapi",
     "uvicorn",
     "requests"
 ]
-
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
 
 [tool.openenv]
 entrypoint = "main:app"
