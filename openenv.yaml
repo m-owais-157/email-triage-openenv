@@ -1,0 +1,11 @@
+name: email-triage-openenv
+description: Smart Email Triage Environment using OpenEnv
+
+entrypoint:
+  module: main
+  app: app
+
+endpoints:
+  reset: /reset
+  step: /step
+  state: /state
