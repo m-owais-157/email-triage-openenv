@@ -1,6 +1,6 @@
  # 📧 Smart Email Triage Environment (OpenEnv) 
 
-## 🚀 Overview
+# # 🚀 Overview
 This project implements a **reinforcement learning environment** for email classification using the OpenEnv standard.
 
 An agent interacts with the environment to classify emails into:
@@ -12,15 +12,15 @@ The goal is to **maximize reward** through correct classification.
 
 ---
 
-## 🌐 Live Deployment
+# # 🌐 Live Deployment
 - 🔗 Hugging Face Space:  
   https://m-owais-7-email-triage-env-v1.hf.space
 
 ---
 
-## 🧠 Environment Design
+# # 🧠 Environment Design
 
-### 🔁 Endpoints
+# # # 🔁 Endpoints
 
 | Endpoint | Description |
 |--------|------------|
@@ -34,7 +34,7 @@ The goal is to **maximize reward** through correct classification.
 
 ---
 
-## 🎯 Task
+# # 🎯 Task
 
 Classify each email into:
 - `"important"`
@@ -43,7 +43,7 @@ Classify each email into:
 
 ---
 
-## 🧾 Example Email
+ # # 🧾 Example Email
 
 ```json
 {
