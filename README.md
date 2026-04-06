@@ -1,4 +1,4 @@
-# 📧 Smart Email Triage Environment (OpenEnv)
+ # 📧 Smart Email Triage Environment (OpenEnv) 
 
 ## 🚀 Overview
 This project implements a **reinforcement learning environment** for email classification using the OpenEnv standard.
